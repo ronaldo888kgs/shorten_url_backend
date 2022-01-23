@@ -1,0 +1,87 @@
+.loginForm {
+    padding:20px;
+    margin-top:30px;
+    width:600px;
+}
+.loginForm .logoText{
+    text-align: center;
+}
+
+.loginForm .formRow{
+    margin-top:20px;
+}
+
+.loginForm .errorRow{
+    color: rgb(230, 119, 119);
+}
+
+.text-button{
+    cursor: pointer;
+}
+
+.banner{
+    margin-top:50px;
+    text-align: center;
+}
+
+.middle-buttons{
+
+}
+
+.table-url_list{
+    border: 1px solid #b8b8b8;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.th-url_list {
+    vertical-align: bottom;
+    border: 1px solid #b8b8b8;
+    border-bottom-width: 2px;
+    padding: 0.3rem;
+    background-color:#2f2f2f;
+    color:white;
+}
+
+th.no {
+    width:30px;
+}
+
+td:nth-child(2){
+    width:50%;
+    overflow-wrap: anywhere;
+}
+
+td:nth-child(3){
+    width:35%;
+}
+
+td:nth-last-child(1){
+    vertical-align: middle;
+}
+
+tr:nth-child(even){
+    background-color:#e4e4e4;
+}
+
+tr:hover {
+    cursor: pointer;
+}
+
+
+.td-url_list {
+    vertical-align: top;
+    border: 1px solid #b8b8b8;
+    padding: 0.3rem;
+}
+
+.margin_top_30{
+    margin-top:30px;
+}
+
+@media (max-width: 1920px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1800px;
+    }
+}
